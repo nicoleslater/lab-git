@@ -125,7 +125,10 @@ Check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
-
+<$ git commit -m "
+submitting lab"
+[main cdd9c84] submitting lab
+ 1 file changed, 42 insertions(+), 4 deletions(-)>
 ```
 
 ## 9
@@ -135,5 +138,5 @@ Stage your changes and then make another commit with a sensible commit message.
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+<>
 ```
