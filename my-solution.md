@@ -138,5 +138,8 @@ Stage your changes and then make another commit with a sensible commit message.
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-<>
+< $ git commit -m "
+commiting to the lab"
+[main 312cfcb] commiting to the lab
+ 1 file changed, 5 insertions(+), 2 deletions(-)>
 ```
