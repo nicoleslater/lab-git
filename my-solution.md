@@ -10,8 +10,8 @@ Create a new directory called `git-lab/`. Then, navigate inside of that director
 
 Copy and paste _the command(s)_ you used into the code block below.
 
-```
-
+```< nicoleslater:lab-git/ (main) $ mkdir git lab
+nicoleslater:lab-git/ (main) $        [1:56:19] >
 ```
 
 ## 2
@@ -21,7 +21,9 @@ Initialize the directory as a git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
-
+< $ git init
+Reinitialized existing Git repository in /Users/nicoleslater/10-2_class_notes/lab-git/.git/
+nicoleslater:lab-git/ (main✗) $    >
 ```
 
 ## 3
@@ -31,7 +33,17 @@ Check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
+<nicoleslater:lab-git/ (main✗) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   my-solution.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+nicoleslater:lab-git/ (main✗) $   >
 ```
 
 ## 4
@@ -41,7 +53,9 @@ Create a new file called `readme.md`. Then stage that file.
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+<git add readme.
+md
+nicoleslater:lab-git/ (main✗) $     >
 ```
 
 ## 5
@@ -51,6 +65,16 @@ Check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
+<git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   my-solution.md
+
+no changes added to commit (use "git add" and/or "git commit -a")>
 
 ```
 
@@ -67,7 +91,14 @@ Then, check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
+<On branch main
+Your branch is up to date with 'origin/main'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   my-solution.md
+>
 ```
 
 ## 7
@@ -79,6 +110,13 @@ Copy and paste _the command(s)_ you used into the code block below.
 ```
 
 ```
+< branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   my-solution.md>
 
 ## 8
 
